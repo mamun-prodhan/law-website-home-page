@@ -1,6 +1,6 @@
 // import React from 'react';
 
-const CompanyCard = ({data}) => {
+const FoundationsCard = ({data}) => {
     return (
         <div className='p-8 border space-y-4'>
             <div className='bg-[#1C2946] p-3 inline-block'>
@@ -12,4 +12,4 @@ const CompanyCard = ({data}) => {
     );
 };
 
-export default CompanyCard;
+export default FoundationsCard;
