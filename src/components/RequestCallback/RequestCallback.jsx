@@ -16,7 +16,7 @@ const RequestCallback = () => {
           </p>
           <div>
             <form action="">
-              <div className=" flex flex-col lg:flex-row  md:my-4 lg:my-4 lg:gap-6">
+              <div className=" flex flex-col lg:flex-row  md:mt-4 lg:my-4 lg:gap-6">
                 <div className=" w-full lg:w-1/2">
                   <input
                     className="w-full py-3 text-[#000] outline-none border-b border-[#DDD] placeholder-[#778997] "
