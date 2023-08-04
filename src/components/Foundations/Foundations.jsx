@@ -29,7 +29,7 @@ const Foundations = () => {
         },
     ]
     return (
-        <div className="my-10 md:my-16 lg:my-24 px-4 md:px-10 lg:px-20 flex flex-col lg:flex-row items-center">
+        <div className="my-10 md:my-16 lg:my-32 px-4 md:px-10 lg:px-20 flex flex-col lg:flex-row items-center">
         <div className="lg:w-[15%] mb-6 md:mb-10 lg:mb-0">
             <h2 className="text-2xl text-[#1C2946] font-medium mb-3">Foundations</h2>
             <a href="" className="text-base text-[#3C78F4] flex items-center">Contact Us <span className="ms-4"><BsArrowRight/></span></a>

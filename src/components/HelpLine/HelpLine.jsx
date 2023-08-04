@@ -6,7 +6,7 @@ import call from "../../assets/call2.svg";
 
 const HelpLine = () => {
   return (
-    <div className="md:px-10 lg:px-20 mb-32">
+    <div className="md:px-10 lg:px-20 mb-10 md:mb-16 lg:mb-32">
       <div className="px-4 md:px-10 lg:px-20 py-12 flex-col lg:flex-row flex items-center justify-between bg-[#0F1B33]">
         <div className="lg:flex">
           <img className="mx-auto lg:mx-0" src={image1} alt="" />
