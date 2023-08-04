@@ -3,7 +3,7 @@
 const FoundationsCard = ({data}) => {
     return (
         <div className='p-8 border space-y-4'>
-            <div className='bg-[#1C2946] p-3 inline-block'>
+            <div className='bg-[#E8F1FE] p-3 inline-block'>
             <img src={data.image} alt="" />
             </div>
             <h3 className='text-2xl font-medium text-[#1C2946]'>{data.title}</h3>

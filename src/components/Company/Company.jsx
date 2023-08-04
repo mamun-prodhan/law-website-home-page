@@ -1,6 +1,8 @@
 // import React from 'react';
 import { BsArrowRight } from "react-icons/bs";
 import img from '../../assets/mission.svg';
+import img2 from '../../assets/heart.svg';
+import img3 from '../../assets/security.svg';
 import CompanyCard from "../CompanyCard/CompanyCard";
 
 const Company = () => {
@@ -19,12 +21,12 @@ const Company = () => {
         {
             title: 'Values',
             description: 'We stand for fairness, respect, and fierce advocacy. Your rights are our command, your battle is ours.',
-            image: img
+            image: img2
         },
         {
             title: 'Promise',
             description: 'You are never alone in your journey. We promise to stand beside you, be your voice, and tirelessly work towards justice. ',
-            image: img
+            image: img3
         },
     ]
 
