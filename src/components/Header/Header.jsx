@@ -21,8 +21,8 @@ const Header = () => {
         </div>
       </div>
       {/* text div */}
-      <div className="flex flex-col md:flex-row mb-24">
-        <div className="py-8 md:py-10 lg:py-16 ps-8 md:ps-10 lg:ps-16 flex-1">
+      <div className="flex flex-col md:flex-row">
+        <div className="py-8 md:py-10 lg:py-16 ps-4 md:ps-10 lg:ps-16 flex-1">
           <h2 className="text-xl md:text-2xl lg:text-5xl font-semibold leading-snug mb-10 md:mb-12 lg:mb-24">
             GET IMMEDIATE <br /> ENGAGEMENT AND YOUR <br /> BEST CHANCE OF <br /> ACQUITTAL
           </h2>
@@ -33,7 +33,7 @@ const Header = () => {
             </span>
           </button>
         </div>
-        <div className="py-8 md:py-10 lg:py-16 ps-8 md:ps-10 lg:ps-16 flex-1 bg-[#1C2946] text-[#FFF]">
+        <div className="py-8 md:py-10 lg:py-16 ps-4 md:ps-10 lg:ps-16 flex-1 bg-[#1C2946] text-[#FFF]">
           <h2 className="text-xl md:text-2xl lg:text-5xl font-semibold mb-6 md:mb-6 lg:mb-14">EMERGENCY?</h2>
           <p className="text-lg md:text-lg lg:text-2xl text-[#B5E6EA] mb-2 md:mb-2 lg:mb-6 font-medium">Call 24 hours a day , 7 days a week .</p>
           <p className="text-lg md:text-lg lg:text-2xl underline mb-6 md:mb-6 lg:mb-20 font-medium">0121 345 9067</p>
