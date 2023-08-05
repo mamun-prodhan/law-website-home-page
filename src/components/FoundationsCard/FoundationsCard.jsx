@@ -6,7 +6,7 @@ const FoundationsCard = ({data}) => {
             <div className='bg-[#E8F1FE] p-3 inline-block'>
             <img src={data.image} alt="" />
             </div>
-            <h3 className='text-2xl font-medium text-[#1C2946]'>{data.title}</h3>
+            <h3 className='text-lg md:text-xl font-medium text-[#1C2946]'>{data.title}</h3>
             <p className='text-[#646F85]'>{data.description}</p>
         </div>
     );

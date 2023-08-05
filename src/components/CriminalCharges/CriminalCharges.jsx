@@ -41,8 +41,8 @@ const CriminalCharges = () => {
     ]
 
     return (
-        <div className="px-4 md:px-10 lg:px-20 py-24 bg-[#F7F7F7]">
-            <h2 className="text-2xl text-[#1C2946] font-medium mb-16">DEFENDING YOUR RIGHTS ACROSS <span className="text-[#3C78F4]">CRIMINAL CHARGES</span></h2>
+        <div className="px-4 md:px-10 lg:px-20 py-10 md:py-16 lg:py-32 bg-[#F7F7F7]">
+            <h2 className="text-xl md:text-2xl lg:text-3xl text-center md:text-start  text-[#1C2946] font-medium mb-6 md:mb-10 lg:mb-16">DEFENDING YOUR RIGHTS ACROSS <span className="text-[#3C78F4]">CRIMINAL CHARGES</span></h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16">
                 {
                     chargesData.map((data, index) => <Charge 

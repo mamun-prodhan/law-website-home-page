@@ -33,7 +33,7 @@ const Company = () => {
     return (
         <div className="my-10 md:my-16 lg:my-24 px-4 md:px-10 lg:px-20 flex flex-col lg:flex-row items-center">
             <div className="lg:w-[15%] mb-6 md:mb-10 lg:mb-0">
-                <h2 className="text-2xl text-[#1C2946] font-medium mb-3">Company</h2>
+                <h2 className="text-xl md:text-2xl text-[#1C2946] font-medium mb-3">Company</h2>
                 <a href="" className="text-base text-[#3C78F4] flex items-center justify-center lg:justify-start">About Us <span className="ms-4"><BsArrowRight/></span></a>
             </div>
             <div className="lg:w-[85%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
