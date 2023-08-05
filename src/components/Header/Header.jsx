@@ -5,6 +5,7 @@ import { BsArrowRight } from "react-icons/bs";
 import whatsapp from "../../assets/whatsapp.svg";
 import email from "../../assets/email.svg";
 import call from "../../assets/call.svg";
+import brandImage from '../../assets/brand.svg';
 
 const Header = () => {
   return (
@@ -36,7 +37,8 @@ const Header = () => {
             </span>
           </button>
         </div>
-        <div className="py-8 md:py-10 lg:py-16 ps-4 md:ps-10 lg:ps-16 flex-1 bg-[#1C2946] text-[#FFF]">
+        <div className="py-8 md:py-10 lg:py-16 ps-4 md:ps-10 lg:ps-16 flex-1 bg-[#1C2946] text-[#FFF] relative">
+          <img className='hidden lg:block absolute right-10 bottom-10' src={brandImage} alt="" />
           <h2 className="text-xl md:text-3xl lg:text-5xl font-semibold mb-8 md:mb-10 lg:mb-16">
             EMERGENCY?
           </h2>
