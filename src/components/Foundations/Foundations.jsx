@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import { BsArrowRight } from "react-icons/bs";
 import img from '../../assets/mission2.svg';
 import img2 from '../../assets/heart2.svg';

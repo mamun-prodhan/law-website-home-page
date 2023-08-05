@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import img from '../../assets/banner3.png';
 import plusIcon from '../../assets/add.png';
 import DetailsBannerButton from '../DetailsBannerButton/DetailsBannerButton';

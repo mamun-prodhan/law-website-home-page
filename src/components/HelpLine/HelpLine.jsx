@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import image1 from "../../assets/warning.svg";
 import whatsapp from "../../assets/whatsapp2.svg";
 import email from "../../assets/email2.svg";

@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 
 import Charge from "../Charge/Charge";
 
